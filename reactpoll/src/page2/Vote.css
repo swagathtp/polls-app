@@ -1,0 +1,9 @@
+.vote{
+    margin: 30px;
+}
+@media(max-width:600px){
+    .vote{
+        margin-left: 25px;
+        margin: 20px;
+    }
+}

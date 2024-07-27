@@ -1,0 +1,19 @@
+/* .votebtn{
+    margin-left:300px ;
+}
+@media(max-width:600px){
+    .votebtn{
+        margin-left: 17px;
+    }
+} */
+.head{
+    margin-left: 35px;
+    font-size: 35px;
+    color: black;
+    border: 1px;
+}
+@media(max-width:600px){
+    .head{
+        font-size: 200%;
+    }
+} 

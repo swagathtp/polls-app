@@ -1,0 +1,37 @@
+ .app{
+    display: grid; 
+    /* height: 100vh;  */
+    box-sizing: border-box;
+} 
+@media(max-width:600px){
+    .app{
+        box-sizing: border-box;
+        display: grid; 
+        grid-template-columns:100%;
+        width: 95%;
+        
+    }
+}
+/* .item-2{
+    grid-row: 2;
+} */
+.item-1{
+    grid-row: 1;
+    grid-column: 1;
+} 
+.alert{
+        width: 20%;
+        margin-left: 30%;
+        position: absolute;
+        z-index: 1;
+        margin-top:8.5%;
+}
+@media(max-width:600px){
+    .alert{
+        width: 50%;
+        margin-left: 20%;
+        position: absolute;
+        z-index: 1;
+        margin-top:0%;
+    }
+}

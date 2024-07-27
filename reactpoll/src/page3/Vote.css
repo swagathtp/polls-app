@@ -1,0 +1,31 @@
+.Vote div {
+  padding: 5px 50px;
+  font-size: 30px;
+}
+.Vote text {
+  padding: 5px 50px;
+  font-size: 35px;
+}
+@media(max-width:600px){
+  .Vote text{
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+  }
+}
+.Vote h1 {
+  overflow: auto;
+  height: 5vh;
+  background-color: #7d7d7d;
+  width: 1300px;
+  margin: 10px;
+  border: #000000;
+  padding: 50px;
+}
+@media(max-width:600px){
+  .Vote text{
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,25 @@
+.bar {
+  
+  border: none;
+  padding: 20px;
+  padding: 15px 10px;
+} 
+/* @media (max-width: 600px) {
+  .bar {
+    width: 506%;
+    margin-left: 10px;
+  }
+} */
+
+
+.pollbtn {
+  margin-bottom: 10px;
+  width: 100%;
+  margin: 0%;
+  
+}
+@media (max-width: 600px) {
+    .pollbtn {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 19% 1fr ;
+    /* padding: 10px 10px; */
+    box-sizing: border-box;
+    column-gap: 10px;
+    
+
+  }
+.sidebar{
+  box-sizing: border-box;
+  padding: 0% 11%;
+}
+.tablemain{
+ box-sizing: border-box;
+ width: 66%;
+}
+@media (max-width:600px){
+  .grid-container{
+    width: 100%;
+    grid-template-columns: 100%;
+    gap: 10px;
+    height: 100%;
+    margin-right: 10%;
+  } 
+  .sidebar{
+    box-sizing: border-box;
+    grid-column: 1;
+    margin-left: 2%;
+    width: 100%;
+    padding: 0%;
+  } 
+  .tablemain{
+    box-sizing: border-box;
+   margin-left: 2%;
+   width: 100%; 
+  }
+  
+}
+  

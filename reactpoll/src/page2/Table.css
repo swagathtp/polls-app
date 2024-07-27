@@ -1,0 +1,16 @@
+.table{
+    width: 30%;
+    display: grid;
+    margin-left: 40px;
+}
+@media(max-width:600px){
+    .table{
+        width: 95%;
+        padding: 1px;
+        margin-left: 20px;
+        display: grid;
+    }
+    .first-coloum{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,23 @@
+.sub{
+    margin-left:40px;
+    
+}
+@media(max-width:600px){
+    .sub{
+        margin-left: 25px;
+    }
+}
+.radio{
+    font-size: 22px;
+}
+.ques{
+    margin-left: -10px;
+    font-size: 60px;
+    color: black;
+    border: 1px;
+}
+@media(max-width:600px){
+    .radio{
+        margin-bottom: 10%;
+    }
+}
